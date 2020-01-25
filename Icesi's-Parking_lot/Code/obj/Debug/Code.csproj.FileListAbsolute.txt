@@ -1,0 +1,10 @@
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\bin\Debug\Code.exe.config
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\bin\Debug\Code.exe
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\bin\Debug\Code.pdb
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\bin\Debug\GUI.exe
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\bin\Debug\GUI.pdb
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\bin\Debug\GUI.exe.config
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\obj\Debug\Code.csprojAssemblyReference.cache
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\obj\Debug\Code.csproj.CopyComplete
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\obj\Debug\Code.exe
+C:\Users\JuanDavid\OneDrive\Universidad\Carrera\Programacion\Visual C#\Parking_lot-Form\Icesi's-Parking_lot\Code\obj\Debug\Code.pdb

@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class Form1
+    partial class MainFrame
     {
         /// <summary>
         /// Required designer variable.
@@ -191,6 +191,7 @@
             this.butSearch.TabIndex = 16;
             this.butSearch.Text = "Go!";
             this.butSearch.UseVisualStyleBackColor = true;
+            this.butSearch.Click += new System.EventHandler(this.butSearch_Click);
             // 
             // butLast
             // 
@@ -200,6 +201,7 @@
             this.butLast.TabIndex = 17;
             this.butLast.Text = "Last";
             this.butLast.UseVisualStyleBackColor = true;
+            this.butLast.Click += new System.EventHandler(this.butLast_Click);
             // 
             // butNext
             // 
@@ -209,6 +211,7 @@
             this.butNext.TabIndex = 18;
             this.butNext.Text = "Next";
             this.butNext.UseVisualStyleBackColor = true;
+            this.butNext.Click += new System.EventHandler(this.butNext_Click);
             // 
             // Edit
             // 
@@ -237,7 +240,7 @@
             this.butNew.Text = "New";
             this.butNew.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // MainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -264,8 +267,8 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.labName);
             this.Controls.Add(this.labSearch);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainFrame";
+            this.Text = "Parking Lot";
             this.ResumeLayout(false);
             this.PerformLayout();
 
