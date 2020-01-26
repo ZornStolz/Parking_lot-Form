@@ -175,6 +175,7 @@
             // 
             // txtSearch
             // 
+            this.txtSearch.Enabled = false;
             this.txtSearch.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtSearch.Location = new System.Drawing.Point(119, 35);
             this.txtSearch.Name = "txtSearch";
@@ -185,13 +186,13 @@
             // 
             // butSearch
             // 
+            this.butSearch.Enabled = false;
             this.butSearch.Location = new System.Drawing.Point(231, 34);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(41, 23);
             this.butSearch.TabIndex = 16;
             this.butSearch.Text = "Go!";
             this.butSearch.UseVisualStyleBackColor = true;
-            this.butSearch.Click += new System.EventHandler(this.butSearch_Click);
             // 
             // butLast
             // 
@@ -215,6 +216,7 @@
             // 
             // Edit
             // 
+            this.Edit.Enabled = false;
             this.Edit.Location = new System.Drawing.Point(74, 469);
             this.Edit.Name = "Edit";
             this.Edit.Size = new System.Drawing.Size(75, 23);
@@ -230,6 +232,7 @@
             this.butSave.TabIndex = 20;
             this.butSave.Text = "Save";
             this.butSave.UseVisualStyleBackColor = true;
+            this.butSave.Click += new System.EventHandler(this.butSave_Click);
             // 
             // butNew
             // 
@@ -239,6 +242,7 @@
             this.butNew.TabIndex = 21;
             this.butNew.Text = "New";
             this.butNew.UseVisualStyleBackColor = true;
+            this.butNew.Click += new System.EventHandler(this.butNew_Click);
             // 
             // MainFrame
             // 

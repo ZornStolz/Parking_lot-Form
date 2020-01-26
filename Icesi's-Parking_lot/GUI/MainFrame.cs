@@ -34,21 +34,57 @@ namespace GUI
             txtCareer.Text = current.Value.getCareer();
         }
 
-        private void butSearch_Click(object sender, EventArgs e)
+        public void clean()
         {
-        
+            txtName.Text = "";
+            txtLastName.Text = "";
+            txtLicense.Text = "";
+            txtBrand.Text = "";
+            txtModel.Text = "";
+            txtColor.Text = "";
+            txtCareer.Text = "";
         }
 
         private void butNext_Click(object sender, EventArgs e)
         {
+            if(current.Next != null)
+            {
             current = current.Next;
             set();
+            } else
+            {
+                current = Program.registers.First;
+                set();
+            }
+
         }
 
         private void butLast_Click(object sender, EventArgs e)
         {
+            if(current.Previous != null)
+            {
             current = current.Previous;
             set();
+            } else
+            {
+                current = Program.registers.Last;
+                set();
+            }
+
+        }
+
+        private void butNew_Click(object sender, EventArgs e)
+        {
+            clean();
+        }
+
+        private void butSave_Click(object sender, EventArgs e)
+        {
+            // new element
+            Data nE = new Data(txtName.Text, txtLastName.Text, txtLicense.Text, txtBrand.Text, txtModel.Text, txtColor.Text, txtCareer.Text);
+            Program.registers.AddLast(nE);
+            Program.Write();
+            current = Program.registers.Last;
         }
     }
 }

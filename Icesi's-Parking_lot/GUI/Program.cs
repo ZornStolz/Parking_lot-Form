@@ -50,15 +50,18 @@ namespace GUI
             }
         }
 
-        public static void escritura()
+        public static void Write()
         {
             try
             {
 
                 StreamWriter sw = new StreamWriter("..\\..\\data.txt", true);
 
-                sw.WriteLine("Paco,Velez,AGT007,Audi,2015,Blue,Sistemas");
-                sw.WriteLine("Augusto,Mercedez,SEX000,Mazda,2010,Red,Economia");
+                //new element
+                Data nE = registers.Last.Value;
+
+                sw.WriteLine("\n" + nE.getName() + "," + nE.getLastName() + "," + nE.getLicense() + "," + 
+                             nE.getBrand() + "," + nE.getModel() + "," + nE.getColor() + "," + nE.getCareer());
 
                 sw.Close();
             }
